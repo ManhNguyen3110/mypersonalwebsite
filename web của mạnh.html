@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web cá nhân của Nguyễn Hữu Đức Mạnh</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6f7ff; /* Màu nền xanh nhạt */
+            color: #333333; /* Màu chữ xám đậm */
+            line-height: 1.6;
+        }
+        nav {
+            background-color: #004080;
+            color: white;
+            padding: 1em;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #0059b3;
+        }
+        section {
+            padding: 30px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        p, ul {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        img {
+            width: 160px;
+            height: auto;
+            border-radius: 80px;
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style-type: circle;
+            padding-left: 40px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            font-size: 1em;
+        }
+        form {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="tel"] {
+            padding: 12px;
+            border: 2px solid #cccccc;
+            border-radius: 8px;
+        }
+        form input[type="submit"] {
+            background-color: #004080;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        form input[type="submit"]:hover {
+            background-color: #0059b3;
+        }
+        button {
+            background-color: #ff8000;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #e67300;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#trang-chu">Trang chủ</a>
+    <a href="#so-thich">Sở thích</a>
+    <a href="#thanh-tich">Thành tích</a>
+    <a href="#dang-ky-thanh-vien">Đăng ký thành viên</a>
+    <a href="#lien-he">Liên hệ</a>
+</nav>
+
+<section id="trang-chu">
+    <h1>Thông tin cá nhân</h1>
+    <p><center>Chào mừng bạn đến với trang web cá nhân của tôi! Tôi là Nguyễn Hữu Đức Mạnh, sinh viên trường Đại học Thương mại. Đây là một số thông tin về tôi.</center></p>
+    <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t39.30808-6/459994311_1225997928604416_6418710283787782880_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHmKcDt_wQRaNYv4Tc4Mfzp4tR0F9eQrBDi1HQX15CsEH7mts2FANFDUbb89ps-F17VWDxnXBgyEsByXWUTI3ZJ&_nc_ohc=_2Z6WAiSFooQ7kNvgHNqZR3&_nc_zt=23&_nc_ht=scontent.fhan3-2.fna&_nc_gid=AvDj1konNzop8Kw9indIQM3&oh=00_AYBTN9DJrZhrKWcHpmlTNLHCUI_iYskT7tjbvPuPajwDvA&oe=670EC508" alt="Ảnh thẻ của Nguyễn Hữu Đức Mạnh">
+</section>
+
+<section id="so-thich">
+    <h2>Sở thích</h2>
+    <ul>
+        <li>Xem Phim</li>
+        <li>Chụp Ảnh</li>
+        <li>Edit Video</li>
+    </ul>
+    <button onclick="alert('Sở thích của bạn là: Xem Phim, Chụp Ảnh, Edit Video')">Hiển thị sở thích</button>
+</section>
+
+<section id="thanh-tich">
+    <h2>Thành tích</h2>
+    <ul>
+        <li>Đạt giải nhất cuộc thi chụp ảnh "Hà Nội Của Tôi 2024"</li>
+        <li>Đạt 8.0 IELTS với thành tích vượt bậc trong lĩnh vực Tiếng Anh</li>
+        <li>Đạt giải nhất cuộc thi Bơi cấp Quận năm 2019</li>
+        <li>Đạt giải Khuyến Khích cuộc thi Kế Toán Kiểm Toán 2023 tại Đại Học Ngoại Thương</li>
+    </ul>
+    <h3>Bảng điểm THPT</h3>
+    <table>
+        <tr>
+            <th>Môn học</th>
+            <th>Điểm</th>
+        </tr>
+        <tr>
+            <td>Toán</td>
+            <td>8.5</td>
+        </tr>
+        <tr>
+            <td>Lý</td>
+            <td>9.0</td>
+        </tr>
+        <tr>
+            <td>Hóa</td>
+            <td>8.8</td>
+        </tr>
+    </table>
+</section>
+
+<section id="dang-ky-thanh-vien">
+    <h2>Đăng ký thành viên</h2>
+    <form>
+        <label for="name">Họ và tên:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Số điện thoại:</label>
+        <input type="tel" id="phone" name="phone">
+        
+        <input type="submit" value="Đăng ký">
+    </form>
+</section>
+
+<section id="lien-he">
+    <h2>Liên hệ</h2>
+    <p>Email: manhnguyenmn7892gmail.com</p>
+    <p>Điện thoại: 0828422075</p>
+    <p>Trường đại học: <a href="http://tmu.edu.vn" target="_blank">Trường đại học Thương mại</a></p>
+</section>
+
+</body>
+</html>
